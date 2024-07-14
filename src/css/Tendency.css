@@ -1,0 +1,207 @@
+.lateral-tendency {
+    width: 35%
+}
+
+.lateral-tendency-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.lateral-tendency-buscar {
+    margin-top: 5px;
+    background-color: #202327;
+    width: 330px;
+    border-radius: 100px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lateral-tendency-svg-fill {
+    padding: 10px;
+    fill: #71767b;
+    margin-left: 10px;
+    background-color: #202327;
+    width: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.lateral-input-buscar {
+    background-color: transparent;
+    border: 0;
+    align-items: start;
+    margin-left: 10px;
+    width: 220px;
+    outline: none;
+    background-color: #202327;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+.lateral-panel-result {
+    display: none;
+    padding: 30px;
+    border-radius: 10px;
+    width: 280px;
+    height: 60px;
+    color: #71767b;
+    background-color: black;
+    -webkit-box-shadow: 0px 0px 10px 0px #2d2d2d;
+    box-shadow: 0px 0px 10px 0px #2d2d2d;
+}
+
+.lateral-busqueda-resultado {
+    display: flex;
+    text-align: center;
+}
+
+.lateral-tendency-buscar:focus-within {
+    background-color: black;
+    border: 1px solid #45adf3;
+}
+
+.lateral-tendency-buscar:focus-within .lateral-tendency-svg-fill {
+    fill: #45adf3;
+    background-color: black;
+}
+
+.lateral-tendency-buscar:focus-within .lateral-input-buscar {
+    background-color: black;
+}
+
+.lateral-tendency-article {
+    border: 1px solid #2f3336; 
+    width: 340px;
+    border-radius: 10px;
+    margin-top: 15px
+}
+
+.lateral-tendency-article-content {
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.lateral-tendency-parrafo {
+    line-height: 20px;
+}
+
+.lateral-tendency-button {
+    width: 125px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #1d9bf0;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+.lateral-tendency-span {
+    font-size: 11px; 
+    color: #6a6f74;
+}
+
+.lateral-tendency-content-span {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    line-height: 5px;
+}
+
+.lateral-tendency-group-trending {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.lateral-tendency-trending {
+    display: flex; 
+    flex-direction: row; 
+    height: 80px;
+    max-height: 80px;
+    align-items: center;
+}
+
+.lateral-tendency-trending:hover {
+    background-color: #181818;
+}
+
+.lateral-tendency-trending:first-child:hover {
+    height: 120px;
+    background-color: #181818;
+}
+
+.lateral-tendency-image-trending {
+    margin-left: 25px;
+    width: 80px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.lateral-tendency-content-trending {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    line-height: 5px;
+    margin-top: -35px;
+}
+
+.lateral-tendency-link {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.lateral-tendency-text-link {
+    font-size: 15px;
+    color: #1d9bf0;
+}
+
+.lateral-tendency-article-sugerencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.lateral-tendency-sugerencia-seguidor {
+    display: flex;
+    flex-direction: row;
+}
+
+.lateral-tendency-avatar {
+    width: 40px;
+    border-radius: 100px;
+}
+
+.lateral-tendency-info-cuenta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.lateral-tendency-panel-seguidor {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lateral-tendency-cuenta {
+    color: #6a6f74;
+}
+
+.lateral-tendency-button-seguir {
+    border-radius: 100px;
+    border: 0; 
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.lateral-tendency-nombre-usuario {
+    font-weight: bold;
+}

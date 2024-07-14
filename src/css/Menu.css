@@ -1,0 +1,106 @@
+.lateral-menu {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.lateral-menu-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.svg-fill {
+    fill: white;
+    width: 28px;
+    min-width: 28px;
+}
+
+.lateral-menu-li {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    list-style: none;
+}
+
+.lateral-menu-button {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+
+    gap: 20px; 
+    width: auto;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    padding: 0 15px;
+    background-color: black;
+}
+
+.lateral-menu-button:hover {
+    background-color: #181818;
+}
+
+.lateral-menu-li:not(:last-child) {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.lateral-menu-li:last-child {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.lateral-menu-option {
+    color: white;
+    font-size: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 150px;
+}
+
+.lateral-menu-button-post {
+    width: 225px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #1d9bf0;
+}
+
+.lateral-menu-button-text {
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+.lateral-menu-avatar {
+    width: 40px;
+    border-radius: 100px;
+}
+
+.lateral-menu-profile {
+    display: flex; 
+    flex-direction: row; 
+    gap: 10px;
+}
+
+.lateral-menu-user {
+    display: flex; 
+    flex-direction: column; 
+    line-height: 20px;
+}
+
+.lateral-menu-user-name {
+    font-size: 15px;
+}
+
+.lateral-menu-user-account {
+    color: gray;
+}
