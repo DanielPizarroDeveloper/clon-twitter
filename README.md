@@ -11,3 +11,5 @@ Este proyecto tiene como proposito ir practicando el Front End (Mis primeros int
 </br>
 </br>
 El proyecto sera realizado con React JS.
+
+![Feed Fake X](https://github.com/user-attachments/assets/6d4d69b6-e5a1-4f95-a696-5d9c3e072d79)
