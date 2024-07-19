@@ -14,13 +14,13 @@ export function Tendency(){
               </span>
             </div>
           </section>
-          
+
           <article className='lateral-tendency-article'>
             <div className='lateral-tendency-article-content'>
               <h2>
                 Suscríbete a Premium
               </h2>
-              <p className='lateral-tendency-parrafo'>
+              <p className='lateral-tendency-paragraph'>
                 Suscríbete para desbloquear nuevas funciones y, si eres elegible, recibir un pago de cuota de ingresos por anuncios.
               </p>
               <button className='lateral-tendency-button'>
@@ -76,12 +76,10 @@ export function Tendency(){
                   <span className='lateral-tendency-span'>420 mil post</span>
                 </div>
               </div>
-
-              <div className='lateral-tendency-link'>
-                <div className='lateral-tendency-content-span'>
-                  <span className='lateral-tendency-text-link'>Mostrar más</span>
-                </div>
-              </div>
+            </div>
+            
+            <div className='lateral-tendency-link'>
+              <span className='lateral-tendency-text-link'>Mostrar más</span>
             </div>
           </article>
 
@@ -89,39 +87,52 @@ export function Tendency(){
             <div className='lateral-tendency-article-content'>
               <h2>
                 A quién seguir
-              </h2>  
-              <div className='lateral-tendency-panel-seguidor'>
-                <div className='lateral-tendency-article-sugerencia'>
-                  <div className='lateral-tendency-sugerencia-seguidor'>
-                    <img className='lateral-tendency-avatar' src="https://unavatar.io/danielpizarros_" alt="" />
-                    <div className='lateral-tendency-info-cuenta'>
-                      <span className='lateral-tendency-nombre-usuario'>Daniel Pizarro</span>
-                      <span className='lateral-tendency-cuenta'>@danielpizarros_</span>
-                    </div>
-                  </div>
-                  <button className='lateral-tendency-button-seguir'>Seguir</button>
-                </div>
+              </h2>
+            </div>
 
-                <div className='lateral-tendency-article-sugerencia'>
-                  <div className='lateral-tendency-sugerencia-seguidor'>
-                    <img className='lateral-tendency-avatar' src="https://unavatar.io/nervomusic" alt="" />
-                    <div className='lateral-tendency-info-cuenta'>
-                      <span className='lateral-tendency-nombre-usuario'>NERVO</span>
-                      <span className='lateral-tendency-cuenta'>@nervomusic</span>
-                    </div>
+            <div className='lateral-tendency-panel-seguidor'>
+              <div className='lateral-tendency-article-sugerencia'>
+                <div className='lateral-tendency-sugerencia-seguidor'>
+                  <img className='lateral-tendency-avatar' src="https://unavatar.io/danielpizarros_" alt="" />
+                  <div className='lateral-tendency-info-cuenta'>
+                    <span className='lateral-tendency-nombre-usuario'>Daniel Pizarro</span>
+                    <span className='lateral-tendency-cuenta'>@danielpizarros_</span>
                   </div>
+                </div>
+                <div className='lateral-tendency-panel-button'>
                   <button className='lateral-tendency-button-seguir'>Seguir</button>
                 </div>
               </div>
             </div>
 
-            <div style={{display: 'flex', flexDirection: 'column', marginBottom: '20px'}}>
-              <div className='lateral-tendency-link'>
-                <div className='lateral-tendency-content-span'>
-                  <span className='lateral-tendency-text-link'>Mostrar más</span>
+            <div className='lateral-tendency-panel-seguidor'>
+              <div className='lateral-tendency-article-sugerencia'>
+                <div className='lateral-tendency-sugerencia-seguidor'>
+                  <img className='lateral-tendency-avatar' src="https://unavatar.io/nervomusic" alt="" />
+                  <div className='lateral-tendency-info-cuenta'>
+                    <span className='lateral-tendency-nombre-usuario'>NERVO</span>
+                    <span className='lateral-tendency-cuenta'>@nervomusic</span>
+                  </div>
+                </div>
+                <div className='lateral-tendency-panel-button'>
+                  <button className='lateral-tendency-button-seguir'>Seguir</button>
                 </div>
               </div>
             </div>
+
+            <div className='lateral-tendency-link'>
+              <span className='lateral-tendency-text-link'>Mostrar más</span>
+            </div>
+          </article>
+
+          <article className='lateral-tendency-options'>
+            <a className='lateral-tendency-link-option' href='#'>Condiciones de Servicio</a>
+            <a className='lateral-tendency-link-option' href='#'>Política de Privacidad</a>
+            <a className='lateral-tendency-link-option' href='#'>Política de cookies</a>
+            <a className='lateral-tendency-link-option' href='#'>Accesibilidad</a>
+            <a className='lateral-tendency-link-option' href='#'>Información de anuncios</a>
+            <a className='lateral-tendency-link-option' href='#'>Más opciones</a>
+
           </article>
         </aside>
     )

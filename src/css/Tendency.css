@@ -1,5 +1,6 @@
 .lateral-tendency {
-    width: 35%
+    margin-right: 2.5%;
+    width: 34%;
 }
 
 .lateral-tendency-section {
@@ -75,7 +76,9 @@
     border: 1px solid #2f3336; 
     width: 340px;
     border-radius: 10px;
-    margin-top: 15px
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .lateral-tendency-article-content {
@@ -84,7 +87,7 @@
     margin-bottom: 10px;
 }
 
-.lateral-tendency-parrafo {
+.lateral-tendency-paragraph {
     line-height: 20px;
 }
 
@@ -107,14 +110,13 @@
 .lateral-tendency-content-span {
     display: flex;
     flex-direction: column;
-    margin-left: 25px;
     line-height: 5px;
+    padding: 10px;
 }
 
 .lateral-tendency-group-trending {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
 }
 
 .lateral-tendency-trending {
@@ -135,7 +137,7 @@
 }
 
 .lateral-tendency-image-trending {
-    margin-left: 25px;
+    margin-left: 10px;
     width: 80px;
     height: 75px;
     border-radius: 10px;
@@ -152,10 +154,17 @@
 .lateral-tendency-link {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    height: 40px;
 }
 
+.lateral-tendency-link:hover {
+    background-color: #181818;
+}
+
+
 .lateral-tendency-text-link {
+    margin-top: 10px;
+    margin-left: 10px;
     font-size: 15px;
     color: #1d9bf0;
 }
@@ -164,7 +173,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    padding: 10px;
+    align-content: center;
 }
 
 .lateral-tendency-sugerencia-seguidor {
@@ -187,11 +197,22 @@
 .lateral-tendency-panel-seguidor {
     display: flex; 
     flex-direction: column;
-    gap: 20px;
+    height: 60px;
+    display: flex; 
+    justify-content: center;
+}
+
+.lateral-tendency-panel-seguidor:hover {
+    background-color: #181818;
 }
 
 .lateral-tendency-cuenta {
     color: #6a6f74;
+}
+
+.lateral-tendency-panel-button {
+    display: flex;
+    align-items: center;
 }
 
 .lateral-tendency-button-seguir {
@@ -204,4 +225,24 @@
 
 .lateral-tendency-nombre-usuario {
     font-weight: bold;
+}
+
+.lateral-tendency-options {
+    margin-top: 10px; 
+    word-break: break-all; 
+    width: 340px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    line-height: 19px;
+    text-align: left;
+}
+
+.lateral-tendency-link-option {
+    text-decoration: none; 
+    font-size: small; 
+    color: #6a6f74;
+}
+
+.lateral-tendency-link-option:hover {
+    text-decoration: underline;
 }
