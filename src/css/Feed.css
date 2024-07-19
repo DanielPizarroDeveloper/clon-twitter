@@ -104,108 +104,6 @@
     overflow: hidden;
 }
 
-.feed-svg-background-light-blue,
-.feed-svg-background-light-green,
-.feed-svg-background-light-pink
-{
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; 
-    opacity: 0.2; 
-    border-radius: 100px;
-    z-index: 0;
-}
-
-.feed-post-svg-number-response,
-.feed-post-svg-number-repost, 
-.feed-post-svg-number-like,
-.feed-post-svg-number-view
-{
-    color: #71767b;
-}
-
-.feed-post-option-svg, 
-.feed-post-response-svg,
-.feed-post-repost-svg, 
-.feed-post-like-svg, 
-.feed-post-view-svg {
-    width: 20px; 
-    fill: #71767b;
-}
-
-/* Color Celeste */
-.feed-post-button-svg:hover .feed-post-option-svg path {
-    fill: #1d9bf0;
-}
-
-.feed-svg-background-light-blue:hover {
-    background-color: #1d9bf0;
-}
-
-.feed-post-button-svg:hover .feed-post-response-svg path {
-    fill: #1d9bf0;
-}
-
-.feed-post-button-svg:hover .feed-post-svg-number-response {
-    color: #1d9bf0;
-}
-
-.feed-post-button-svg:hover .feed-post-svg-number-view {
-    color: #1d9bf0;
-}
-
-.feed-post-button-svg:hover .feed-post-view-svg  path{
-    fill: #1d9bf0;
-}
-
-.feed-post-button-svg:hover .feed-post-svg  path{
-    fill: #1d9bf0;
-}
-
-/* Color Verde para los Repost */
-.feed-svg-background-light-green:hover {
-    background-color: #00ba7c;
-}
-
-.feed-post-button-svg:hover .feed-post-repost-svg path {
-    fill: #00ba7c;
-}
-
-.feed-post-button-svg:hover .feed-post-svg-number-repost {
-    color: #00ba7c;
-}
-
-/* Color Rosado para los Likes #f4177d */
-.feed-svg-background-light-pink:hover {
-    background-color: #f4177d
-}
-
-.feed-post-button-svg:hover .feed-post-like-svg path {
-    fill: #f4177d
-}
-
-.feed-post-button-svg:hover .feed-post-svg-number-like {
-    color: #f4177d
-}
-
-.feed-post-button-svg {
-    position: relative; 
-    border: 0; 
-    width: 35px; 
-    height: 35px; 
-    border-radius: 100px; 
-    padding: 0;
-    background-color: transparent;
-    overflow: hidden;
-}
-
-.feed-svg {
-    fill: #1d9bf0;
-    width:20px;
-}
-
 .feed-article-content-button {
     margin-right: 20px; 
     margin-bottom: 20px;
@@ -295,12 +193,152 @@
     margin-bottom: 10px;
 }
 
-.feed-post-svg {
+.feed-svg-background-light-blue,
+.feed-svg-background-light-green,
+.feed-svg-background-light-pink
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    border-radius: 100px;
+    z-index: 0;
+}
+
+.feed-post-option-svg, 
+.feed-post-response-svg,
+.feed-post-repost-svg, 
+.feed-post-like-svg, 
+.feed-post-view-svg {
+    position: relative;
+    left: 7px;
     width: 20px; 
     fill: #71767b;
 }
 
-.feed-post-button-more-options {
+
+.feed-post-svg-number-response,
+.feed-post-svg-number-repost, 
+.feed-post-svg-number-like,
+.feed-post-svg-number-view
+{
+    position: relative;
+    left: -5px;
+    color: #71767b;
+}
+
+.feed-post-button-svg {
+    position: relative; 
+    border: 0; 
+    width: 35px; 
+    height: 30px;
+    border-radius: 100px; 
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.feed-post-icon {
     display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feed-post-change-color {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
+
+/* Color Celeste */
+.feed-svg-button-svg:hover .feed-svg-background-light-blue {
+    background-color: #1d9bf0;
+}
+
+.feed-post-button-svg:hover .feed-svg-background-light-blue {
+    background-color: #1d9bf0;
+}
+
+.feed-post-button-svg:hover .feed-post-option-svg path {
+    fill: #1d9bf0;
+}
+
+.feed-post-change-color:hover .feed-svg-background-light-blue {
+    background-color: #1d9bf0;
+}
+
+.feed-post-change-color:hover .feed-post-svg-number-response {
+    color: #1d9bf0;
+}
+
+.feed-post-change-color:hover .feed-post-response-svg path {
+    fill: #1d9bf0;
+}
+
+.feed-post-change-color:hover .feed-post-svg-number-view {
+    color: #1d9bf0;
+}
+
+.feed-post-change-color:hover .feed-post-view-svg path {
+    fill: #1d9bf0;
+}
+
+.feed-post-button-svg:hover .feed-post-svg  path {
+    fill: #1d9bf0;
+}
+
+/* Color Rosa */
+/* Color de fondo */
+.feed-post-change-color:hover .feed-svg-background-light-green {
+    background-color: #00ba7c;
+}
+
+/* Color del SVG */
+.feed-post-change-color:hover .feed-post-repost-svg {
+    fill: #00ba7c;
+}
+
+/* Color del span */
+.feed-post-change-color:hover .feed-post-svg-number-repost {
+    color: #00ba7c;
+}
+
+/* Color Rosado para los Likes #f4177d */
+.feed-post-change-color:hover .feed-svg-background-light-pink {
+    background-color: #f4177d;
+}
+
+/* Color del SVG */
+.feed-post-change-color:hover .feed-post-like-svg {
+    fill: #f4177d;
+}
+
+/* Color del span */
+.feed-post-change-color:hover .feed-post-svg-number-like {
+    color: #f4177d;
+}
+
+.feed-svg {
+    fill: #1d9bf0;
+    width:20px;
+}
+
+.feed-post-button-more-options {
+    display: flex;
+    position: relative;
+    left: 20px;
     gap: 10px;
+}
+
+.feed-post-svg {
+    position: relative;
+    left: 7.5px;
+    width: 20px; 
+    fill: #71767b;
 }
