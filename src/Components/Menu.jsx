@@ -4,7 +4,7 @@ export function Menu() {
     return (
       <aside className='lateral-menu'>
         <section className="lateral-menu-icon">
-          <nav className='lateral-list-menu'>
+          <nav>
             <ul className='lateral-list-ul'>
               <li className='lateral-menu-li'>
                 <button className='lateral-menu-button'>
@@ -93,18 +93,25 @@ export function Menu() {
                   <span className='lateral-menu-button-text'>Postear</span>
                 </button>
               </li>
-      
-              <li className='lateral-menu-li'>
-                <div className='lateral-menu-profile'>
-                  <img className='lateral-menu-avatar' src="https://unavatar.io/danielpizarros_" alt="" />
-                  <div className='lateral-menu-user'>
-                    <strong><span className='lateral-menu-user-name'>Danielpizarro_</span></strong>
-                    <span className='lateral-menu-user-account'>@Danielpizarros_</span>
-                  </div>
-                </div>
-              </li>
             </ul>
           </nav>
+        </section>
+
+        <section className='lateral-menu-section-profile'>
+          <article className='lateral-menu-article-profile'>
+            <div className='lateral-menu-profile'>
+              <div className='lateral-menu-profile-content'>
+                <img className='lateral-menu-avatar' src="https://unavatar.io/danielpizarros_" alt="" />
+                <div className='lateral-menu-account-info'>
+                  <strong><span className='lateral-menu-user-name'>Danielpizarro_</span></strong>
+                  <span className='lateral-menu-user-account'>@Danielpizarros_</span>
+                </div>
+                <button style={{position: 'relative', left: '60px', top: '10px'}} className='feed-post-option'>
+                  <svg className='feed-post-option-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path></g></svg>
+                </button>
+              </div>
+            </div>
+          </article>
         </section>
       </aside>
     )

@@ -12,6 +12,12 @@
     align-items: end;
 }
 
+.lateral-list-ul {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
 .svg-fill {
     fill: white;
     width: 28px;
@@ -32,7 +38,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 200px;
-
     gap: 20px; 
     width: auto;
     height: 50px;
@@ -43,14 +48,8 @@
 }
 
 .lateral-menu-button:hover {
+    cursor: pointer;
     background-color: #181818;
-}
-
-.lateral-menu-li:not(:last-child) {
-    display: flex;
-    align-items: flex-end;
-    gap: 20px;
-    margin-bottom: 10px;
 }
 
 .lateral-menu-li:last-child {
@@ -75,6 +74,11 @@
     background-color: #1d9bf0;
 }
 
+.lateral-menu-button-post:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
 .lateral-menu-button-text {
     font-size: medium;
     font-weight: bold;
@@ -88,13 +92,11 @@
 
 .lateral-menu-profile {
     display: flex; 
-    flex-direction: row; 
-    gap: 10px;
+    flex-direction: row;
+    justify-content: start;
 }
 
 .lateral-menu-user {
-    display: flex; 
-    flex-direction: column; 
     line-height: 20px;
 }
 
@@ -104,4 +106,40 @@
 
 .lateral-menu-user-account {
     color: gray;
+}
+
+.lateral-menu-section-profile {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: end;
+}
+
+.lateral-menu-article-profile { 
+    margin-right: -35px; 
+    width: 260px; 
+    height: 60px; 
+    border-radius: 100px;
+}
+
+.lateral-menu-article-profile:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+
+.lateral-menu-profile-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative; 
+    top: 10px; 
+    left: 10px;
+}
+
+.lateral-menu-account-info {
+    display: flex; 
+    flex-direction: column; 
+    position: relative; 
+    top: 3px; 
+    left: 10px;
 }

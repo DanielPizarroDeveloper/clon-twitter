@@ -16,9 +16,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-left: 1px solid #2f3336;
-    border-radius: 1px solid #2f3336; 
-    border-bottom: 1px solid #2f3336;
+    border: 1px solid #2f3336;
 }
 
 .feed-article-button {
@@ -66,7 +64,7 @@
     flex-direction: row; 
     align-items: center; 
     margin-left: 2%; 
-    margin-top: 10px; 
+    margin-top: 20px; 
     margin-bottom: 30px;
 }
 
@@ -106,7 +104,10 @@
     overflow: hidden;
 }
 
-.feed-svg-background {
+.feed-svg-background-light-blue,
+.feed-svg-background-light-green,
+.feed-svg-background-light-pink
+{
     position: absolute;
     top: 0; 
     left: 0; 
@@ -117,8 +118,87 @@
     z-index: 0;
 }
 
-.feed-svg-background:hover {
+.feed-post-svg-number-response,
+.feed-post-svg-number-repost, 
+.feed-post-svg-number-like,
+.feed-post-svg-number-view
+{
+    color: #71767b;
+}
+
+.feed-post-option-svg, 
+.feed-post-response-svg,
+.feed-post-repost-svg, 
+.feed-post-like-svg, 
+.feed-post-view-svg {
+    width: 20px; 
+    fill: #71767b;
+}
+
+/* Color Celeste */
+.feed-post-button-svg:hover .feed-post-option-svg path {
+    fill: #1d9bf0;
+}
+
+.feed-svg-background-light-blue:hover {
     background-color: #1d9bf0;
+}
+
+.feed-post-button-svg:hover .feed-post-response-svg path {
+    fill: #1d9bf0;
+}
+
+.feed-post-button-svg:hover .feed-post-svg-number-response {
+    color: #1d9bf0;
+}
+
+.feed-post-button-svg:hover .feed-post-svg-number-view {
+    color: #1d9bf0;
+}
+
+.feed-post-button-svg:hover .feed-post-view-svg  path{
+    fill: #1d9bf0;
+}
+
+.feed-post-button-svg:hover .feed-post-svg  path{
+    fill: #1d9bf0;
+}
+
+/* Color Verde para los Repost */
+.feed-svg-background-light-green:hover {
+    background-color: #00ba7c;
+}
+
+.feed-post-button-svg:hover .feed-post-repost-svg path {
+    fill: #00ba7c;
+}
+
+.feed-post-button-svg:hover .feed-post-svg-number-repost {
+    color: #00ba7c;
+}
+
+/* Color Rosado para los Likes #f4177d */
+.feed-svg-background-light-pink:hover {
+    background-color: #f4177d
+}
+
+.feed-post-button-svg:hover .feed-post-like-svg path {
+    fill: #f4177d
+}
+
+.feed-post-button-svg:hover .feed-post-svg-number-like {
+    color: #f4177d
+}
+
+.feed-post-button-svg {
+    position: relative; 
+    border: 0; 
+    width: 35px; 
+    height: 35px; 
+    border-radius: 100px; 
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
 }
 
 .feed-svg {
@@ -154,6 +234,10 @@
     border-bottom: 1px solid #2f3336;
 }
 
+.feed-post:hover {
+    background-color: #181818;
+}
+
 .feed-post-info {
     display: flex; 
     flex-direction: row;
@@ -180,11 +264,6 @@
     background-color: transparent; 
     display: flex; 
     align-items: baseline;
-}
-
-.feed-post-option-svg {
-    width: 20px; 
-    fill: #71767b;
 }
 
 .feed-post-content {
@@ -216,13 +295,6 @@
     margin-bottom: 10px;
 }
 
-.feed-post-button-svg {
-    border: 0; 
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-}
-
 .feed-post-svg {
     width: 20px; 
     fill: #71767b;
@@ -231,8 +303,4 @@
 .feed-post-button-more-options {
     display: flex; 
     gap: 10px;
-}
-
-.feed-post-svg-number {
-    color: #71767b;
 }
