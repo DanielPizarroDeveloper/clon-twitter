@@ -1,0 +1,32 @@
+[
+    {
+        "ID": "1",
+        "title": "Tendencias",
+        "SubTitle": "Crowdstrike",
+        "numberPost": "1,45 M posts"
+    },
+    {
+        "ID": "2",
+        "title": "Tendencia en Canadá",
+        "SubTitle": "Yemen",
+        "numberPost": "93 mil posts"
+    },
+    {
+        "ID": "3",
+        "title": "Deportes · Tendencia",
+        "SubTitle": "#MUFC",
+        "numberPost": "93 mil posts"
+    },
+    {
+        "ID": "4",
+        "title": "Solo en X · Tendencia",
+        "SubTitle": "#Iquique",
+        "numberPost": "1.249 posts"
+    },
+    {
+        "ID": "5",
+        "title": "Política · Tendencia",
+        "SubTitle": "Israel",
+        "numberPost": "1,45 M posts"
+    }
+]

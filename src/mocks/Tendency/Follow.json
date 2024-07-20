@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "avatar": "https://unavatar.io/nervomusic",
+        "name": "NERVO",
+        "account": "@nervomusic"
+    },
+    {
+        "id": "2",
+        "avatar": "https://unavatar.io/WandWmusic",
+        "name": "W&W",
+        "account": "@WandWmusic"
+    },
+    {
+        "id": "3",
+        "avatar": "https://unavatar.io/tomorrowlandBrasil",
+        "name": "Tomorrowland",
+        "account": "@tomorrowland"
+    }
+]
