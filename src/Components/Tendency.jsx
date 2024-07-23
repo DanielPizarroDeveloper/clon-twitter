@@ -1,9 +1,9 @@
 import '../css/Tendency.css'
-import { FollowCard } from './SubComponentsTendency/FollowCard'
-import { OptionCard } from './SubComponentsTendency/OptionsCard'
-import { TendencyCard } from './SubComponentsTendency/TendencyCard'
-import { SubscribeCard } from './SubComponentsTendency/SubscribeCard'
-import { SearchBar } from './SubComponentsTendency/SearchBar'
+import { FollowCard } from './Tendency Components/FollowCard'
+import { OptionCard } from './Tendency Components/OptionsCard'
+import { TendencyCard } from './Tendency Components/TendencyCard'
+import { SubscribeCard } from './Tendency Components/SubscribeCard'
+import { SearchBar } from './Tendency Components/SearchBar'
 
 export function Tendency(){
     return(

@@ -282,7 +282,24 @@
     font-weight: bold;
 }
 
+.lateral-tendency-button-seguir:hover {
+    background-color: #d7dbdc;
+}
+
+.lateral-tendency-button-siguiendo {
+    width: 130px;
+    border-radius: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid #42505a;
+    font-weight: bold;
+}
+
 .lateral-tendency-nombre-usuario {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: unset;
     font-weight: bold;
 }
 
@@ -306,3 +323,25 @@
     text-decoration: underline;
 }
 
+.lateral-tendency-msj-seguir {
+    font-size: small;
+    display: block;
+}
+
+.lateral-tendency-msj-dejar-seguir {
+    display: none;
+}
+
+.lateral-tendency-button-siguiendo:hover {
+    background-color: #200a0c;
+    border: 1px solid #67070f;
+}
+
+.lateral-tendency-button-siguiendo:hover .lateral-tendency-msj-dejar-seguir {
+    display: block;
+    color: #f4212e;
+}
+
+.lateral-tendency-button-siguiendo:hover .lateral-tendency-msj-seguir {
+    display: none;
+}

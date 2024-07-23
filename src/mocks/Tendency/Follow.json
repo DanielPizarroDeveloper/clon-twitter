@@ -1,20 +1,23 @@
 [
     {
-        "id": "1",
+        "ID": "1",
         "avatar": "https://unavatar.io/nervomusic",
         "name": "NERVO",
-        "account": "@nervomusic"
+        "account": "@nervomusic",
+        "status" : true
     },
     {
-        "id": "2",
+        "ID": "2",
         "avatar": "https://unavatar.io/WandWmusic",
         "name": "W&W",
-        "account": "@WandWmusic"
+        "account": "@WandWmusic",
+        "status" : false
     },
     {
-        "id": "3",
+        "ID": "3",
         "avatar": "https://unavatar.io/tomorrowlandBrasil",
         "name": "Tomorrowland",
-        "account": "@tomorrowland"
+        "account": "@tomorrowland",
+        "status" : true
     }
 ]
