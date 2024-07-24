@@ -37,16 +37,29 @@
     align-items: center;
 }
 
-.feed-article-title {
+.feed-article-title-selected {
     color: white; 
     font-weight: bold;
     margin-top: 5px;
 }
 
-.feed-article-title-underline {
+.feed-article-title-not-selected {
+    color: #71767b;
+    font-weight: unset;
+}
+
+.feed-article-title-underline-visible {
     border-radius: 10px;
     border-bottom: 5px solid #1d9bf0;
     width: 75px;
+    display: block;
+}
+
+.feed-article-title-underline-hidden {
+    border-radius: 10px;
+    border-bottom: 5px solid #1d9bf0;
+    width: 75px;
+    display: none;
 }
 
 .feed-article-panel {

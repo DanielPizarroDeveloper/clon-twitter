@@ -335,13 +335,16 @@
 .lateral-tendency-button-siguiendo:hover {
     background-color: #200a0c;
     border: 1px solid #67070f;
+    transition: .2s;
 }
 
 .lateral-tendency-button-siguiendo:hover .lateral-tendency-msj-dejar-seguir {
     display: block;
     color: #f4212e;
+    /* transition: .2s; */
 }
 
 .lateral-tendency-button-siguiendo:hover .lateral-tendency-msj-seguir {
     display: none;
+    /* transition: .2s; */
 }
