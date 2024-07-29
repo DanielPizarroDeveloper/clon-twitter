@@ -43,7 +43,19 @@
     color: white;
 }
 
-.lateral-panel-result {
+.lateral-panel-visible {
+    display: block;
+    padding: 30px;
+    border-radius: 10px;
+    width: 280px;
+    height: 60px;
+    color: #71767b;
+    background-color: black;
+    -webkit-box-shadow: 0px 0px 10px 0px #2d2d2d;
+    box-shadow: 0px 0px 10px 0px #2d2d2d;
+}
+
+.lateral-panel-hidden {
     display: none;
     padding: 30px;
     border-radius: 10px;

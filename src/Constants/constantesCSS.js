@@ -6,3 +6,11 @@ export function constantesFeed() {
 
     return ({feedTitleSelected, feedTitleNotSelected, feedUnderLineVisible, feedUnderLineHidden})
 }
+
+// Valores que utilizaremos para activar la barra con los resultados recientes.
+export function constanteSearchBar() {
+    const lateralPanelVisible = 'lateral-panel-visible'
+    const lateralPanelHidden = 'lateral-panel-hidden'
+
+    return ({lateralPanelVisible, lateralPanelHidden})
+}
