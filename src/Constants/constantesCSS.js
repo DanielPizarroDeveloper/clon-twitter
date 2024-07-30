@@ -1,3 +1,4 @@
+// Valores que utilizaremos para activar la barra con los titulos del feed
 export function constantesFeed() {
     const feedTitleSelected = 'feed-article-title-selected'
     const feedTitleNotSelected = 'feed-article-title-not-selected'
@@ -13,4 +14,12 @@ export function constanteSearchBar() {
     const lateralPanelHidden = 'lateral-panel-hidden'
 
     return ({lateralPanelVisible, lateralPanelHidden})
+}
+
+// Valores que utilizaremos para activar o desactivar el icono de eliminar texto de la searchBar
+export function constanteButtonSVG() {
+    const lateralButtonSVGVisible = 'lateral-button-svg-visible'
+    const lateralButtonSVGHidden = 'lateral-button-svg-hidden'
+
+    return ({lateralButtonSVGVisible, lateralButtonSVGHidden})
 }

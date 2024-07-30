@@ -1,4 +1,4 @@
-import { constantesFeed, constanteSearchBar } from '../Constants/constantesCSS'
+import { constantesFeed, constanteSearchBar, constanteButtonSVG } from '../Constants/constantesCSS'
 
 export function useInitializeFeed({forYou}){
     const {feedTitleSelected, feedTitleNotSelected, feedUnderLineVisible, feedUnderLineHidden} =  constantesFeed()
@@ -25,12 +25,22 @@ export function useInitializeFeed({forYou}){
     return ({classNameParaTi, classNameUnderlineParaTi, classNameSiguiendo, classNameUnderlineSiguiendo, changeStyle})
 }
 
-export function useInitializeSearchBar({result}){
+export function useInitializeSearchBar({clickBarChange}){
   const { lateralPanelVisible, lateralPanelHidden } = constanteSearchBar()
 
   var lateralPanelResult = null
 
-  result == false ? (lateralPanelResult = lateralPanelHidden) : (lateralPanelResult = lateralPanelVisible)
+  clickBarChange == false ? (lateralPanelResult = lateralPanelHidden) : (lateralPanelResult = lateralPanelVisible)
 
   return ({lateralPanelResult})
+}
+
+export function useInitializeButtonSearch({result}) {
+  const { lateralButtonSVGVisible, lateralButtonSVGHidden } = constanteButtonSVG()
+
+  var lateralButtonSVG = null
+
+  result == false ? (lateralButtonSVG = lateralButtonSVGHidden) : (lateralButtonSVG = lateralButtonSVGVisible)
+
+  return ({lateralButtonSVG})
 }

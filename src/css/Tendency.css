@@ -67,6 +67,29 @@
     box-shadow: 0px 0px 10px 0px #2d2d2d;
 }
 
+.lateral-button-svg-visible {
+    display: block;
+    border: 0;
+    background-color: transparent;
+}
+
+.lateral-button-svg-hidden {
+    display: none;
+    border: 0;
+    background-color: transparent;
+}
+
+.lateral-svg-buscar {
+    padding: 5px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #1d9bf0;
+    border-radius: 100px;
+}
+
 .lateral-busqueda-resultado {
     display: flex;
     text-align: center;
