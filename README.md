@@ -1,15 +1,9 @@
 # Fake Twitter / X 
 
 EN: 
-The purpose of this project is to practice Front End development (my first attempts) with React JS. For now, the goal is to recreate the platform, page by page, trying to make a copy as similar as possible to the original platform.
-</br>
-</br>
-The project will be done with React JS.
+This project aims to practice my Frontend skills, being one of my first attempts with React JS. The focus is on recreating the Twitter platform page by page, striving to achieve a replica as faithful as possible to the original. As development progresses, key concepts of React and CSS are explored to enhance both design and functionality.
 
 ES:
-Este proyecto tiene como proposito ir practicando el Front End (Mis primeros intentos) con React JS. De momento solamente se ira recreando la plataforma, página por página, tratando de generar una copia lo más parecido a la plataforma original.
-</br>
-</br>
-El proyecto sera realizado con React JS.
+Este proyecto tiene como objetivo practicar mis habilidades en Frontend, siendo uno de mis primeros intentos con React JS. El enfoque es recrear la plataforma de Twitter página por página, buscando lograr una réplica lo más fiel posible a la original. A medida que avanza el desarrollo, se exploran conceptos clave de React y CSS para mejorar tanto el diseño como la funcionalidad.
 
 ![Feed Fake X](https://github.com/user-attachments/assets/6d4d69b6-e5a1-4f95-a696-5d9c3e072d79)
