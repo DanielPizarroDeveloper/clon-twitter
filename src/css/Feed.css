@@ -1,18 +1,21 @@
 .feed {
     left: 0;
     right: 0;
-    margin-left: 32%;
-    width: 30%;
+    margin-left: 31%;
+    width: 33%;
     height: 100dvh;
     height: 100vh;
 }
 
 .feed-article {
+    display: flex;
     position: fixed;
-    width: 30%;
+    width: 33%;
+    min-width: 360px;
 }
 
 .feed-article-border {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,6 +66,7 @@
 }
 
 .feed-article-panel {
+    min-width: 360px;
     margin-top: 7.5%;
     display: flex;
     flex-direction: column;
@@ -76,9 +80,9 @@
     display: flex; 
     flex-direction: row; 
     align-items: center; 
-    margin-left: 2%; 
-    margin-top: 20px; 
-    margin-bottom: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .feed-article-avatar {
@@ -101,7 +105,7 @@
 .feed-article-svg {
     display: flex; 
     flex-direction: row; 
-    gap: 20px; 
+    /* gap: 20px; */
     margin-left: 9%;
     margin-bottom: 2%;
 }
@@ -135,6 +139,7 @@
 
 .feed-section {
     text-align: center;
+    min-width: 360px;
 }
 
 .feed-post {
@@ -354,4 +359,100 @@
     left: 7.5px;
     width: 20px; 
     fill: #71767b;
+}
+
+@media screen and (max-width: 1536px) {
+    .feed-article-text-area {
+        margin-left: 2%;
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .feed {
+        left: 0;
+        right: 0;
+        margin-left: 15%;
+        width: 53%;
+        height: 100dvh;
+        height: 100vh;
+    }
+    
+    .feed-article-text-area {
+        margin-left: 2%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    
+    .feed-article {
+        position: fixed;
+        width: 53%;
+    }
+
+    .feed-article-border {
+        width: 94.6%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .feed {
+        left: 0;
+        right: 0;
+        margin-left: 15%;
+        width: 100%;
+        height: 100dvh;
+        height: 100vh;
+    }
+
+    .feed-article {
+        position: fixed;
+        width: 64.9%;
+        min-width: 381px;
+    }
+
+    .feed-article-text-area {
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .feed {
+        margin: 0;
+        width: max-content;
+        height: 100dvh;
+        height: 100vh;
+    }
+
+    .feed-article, .feed-article-panel, .feed-section {
+        width: 107.8%;
+    }
+
+    .feed-article-panel {
+        display: none;
+    }
+
+    .feed-article {
+        position: unset;
+    }
+
+    .feed-section:first-of-type {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .feed-article-border {
+        border: 0;
+    }
+
+    .feed-post-name {
+        margin-left: 5px;
+    }
+    
+    .feed-post-change-color > .feed-post-svg-number-response {
+        font-size: smaller;
+    }
 }

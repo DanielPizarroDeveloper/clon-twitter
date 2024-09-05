@@ -31,7 +31,6 @@ export function useInitializeSearchBar({clickBarChange}){
   var lateralPanelResult = null
 
   clickBarChange == false ? (lateralPanelResult = lateralPanelHidden) : (lateralPanelResult = lateralPanelVisible)
-
   return ({lateralPanelResult})
 }
 

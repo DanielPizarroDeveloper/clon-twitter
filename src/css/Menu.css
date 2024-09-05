@@ -144,3 +144,24 @@
     left: 10px;
     line-height: 20px;
 }
+
+@media screen and (max-width: 1281px) {
+    .lateral-menu {
+        width: 30%;
+        margin-left: -16%;
+    }
+
+    .lateral-menu-li {
+        width: 50px;
+    }
+    
+    .lateral-menu-option {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .lateral-menu {
+        display: none;
+    }
+}

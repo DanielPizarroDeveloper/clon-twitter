@@ -1,5 +1,4 @@
 .lateral-tendency {
-    margin-right: 2.5%;
     width: 34%;
 }
 
@@ -382,4 +381,50 @@
 .lateral-tendency-button-siguiendo:hover .lateral-tendency-msj-seguir {
     display: none;
     /* transition: .2s; */
+}
+
+@media screen and (max-width: 1281px) {
+    .lateral-tendency {
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (max-width: 1071px) {
+    .lateral-tendency-section {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .lateral-tendency-article {
+        width: 300px;
+    }
+
+    .lateral-tendency-buscar {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .lateral-tendency-section {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .lateral-tendency-article {
+        width: 300px;
+    }
+
+    .lateral-tendency-buscar {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .lateral-tendency-section,  .space,  .lateral-tendency-article, .lateral-tendency-options {
+        display: none;
+    }
 }
