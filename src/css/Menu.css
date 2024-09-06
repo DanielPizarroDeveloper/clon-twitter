@@ -79,6 +79,18 @@
     opacity: .9;
 }
 
+.lateral-menu-button-post-responsive {
+    display: none;
+    width: 225px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    right: 5px;
+    border-radius: 1000px;
+    background-color: #1d9bf0;
+    border: 0;
+}
+
 .lateral-menu-button-text {
     font-size: medium;
     font-weight: bold;
@@ -145,10 +157,18 @@
     line-height: 20px;
 }
 
+.feed-post-option {
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
 @media screen and (max-width: 1281px) {
     .lateral-menu {
-        width: 30%;
-        margin-left: -16%;
+        position: static;
+        width: 120px;
+        min-width: 120px;
     }
 
     .lateral-menu-li {
@@ -157,6 +177,25 @@
     
     .lateral-menu-option {
         display: none;
+    }
+
+    .lateral-menu-button-post {
+        display: none;
+    }
+
+    .lateral-menu-button-post-responsive {
+        display: block;
+    }
+
+    .lateral-menu-account-info, .feed-post-option {
+        display: none !important;
+    }
+
+    .lateral-menu-profile-content > .lateral-menu-avatar {
+        position: relative;
+        width: 55px;
+        top: 200px;
+        left: 155px;
     }
 }
 

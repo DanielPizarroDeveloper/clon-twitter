@@ -17,6 +17,7 @@
     padding: 5px;
     display: flex;
     flex-direction: row;
+    border: 1px solid #202327;
 }
 
 .lateral-tendency-svg-fill {
@@ -389,7 +390,7 @@
     }
 }
 
-@media screen and (max-width: 1071px) {
+@media screen and (max-width: 1200px) {
     .lateral-tendency-section {
         position: fixed;
         display: flex;
@@ -406,25 +407,8 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .lateral-tendency-section {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-    }
-
-    .lateral-tendency-article {
-        width: 300px;
-    }
-
-    .lateral-tendency-buscar {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width: 990px) {
-    .lateral-tendency-section,  .space,  .lateral-tendency-article, .lateral-tendency-options {
+@media screen and (max-width: 1004px) {
+    .lateral-tendency {
         display: none;
     }
 }

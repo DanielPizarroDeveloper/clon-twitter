@@ -5,12 +5,13 @@
     width: 33%;
     height: 100dvh;
     height: 100vh;
+    min-width: 360px;
 }
 
 .feed-article {
     display: flex;
     position: fixed;
-    width: 33%;
+    width: inherit;
     min-width: 360px;
 }
 
@@ -24,9 +25,11 @@
 
 .feed-article-button {
     border: 0;
-    background-color: transparent;
     width: 100%;
     height: 50px;
+    background: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .feed-article-button:hover {
@@ -373,10 +376,26 @@
     .feed {
         left: 0;
         right: 0;
-        margin-left: 15%;
-        width: 53%;
+        margin-left: 2%;
+        width: 685px;
         height: 100dvh;
         height: 100vh;
+        min-width: 645px;
+    }
+
+    .feed-article {
+        width: 645px;
+        min-width: 645px;
+    }
+
+    .feed-article-border {
+        width: 645px;
+        min-width: 645px;
+    }
+
+    .feed-article-panel {
+        width: 645px;
+        min-width: 645px;
     }
     
     .feed-article-text-area {
@@ -384,18 +403,14 @@
         margin-top: 4%;
         margin-bottom: 2%;
     }
-    
-    .feed-article {
-        position: fixed;
-        width: 53%;
-    }
 
-    .feed-article-border {
-        width: 94.6%;
+    .feed-section {
+        width: 647px;
+        min-width: 647px;
     }
 }
 
-@media screen and (max-width: 990px) {
+/* @media screen and (max-width: 800px) {
     .feed {
         left: 0;
         right: 0;
@@ -406,9 +421,13 @@
     }
 
     .feed-article {
-        position: fixed;
-        width: 64.9%;
-        min-width: 381px;
+        width: 50.2%;
+        min-width: 360px;
+    }
+
+    .feed-article-border {
+        width: 100%;
+        min-width: inherit;
     }
 
     .feed-article-text-area {
@@ -416,7 +435,7 @@
         margin-top: 10%;
         margin-bottom: 10%;
     }
-}
+} */
 
 @media screen and (max-width: 500px) {
     .feed {
@@ -427,7 +446,7 @@
     }
 
     .feed-article, .feed-article-panel, .feed-section {
-        width: 107.8%;
+        width: 100%;
     }
 
     .feed-article-panel {
