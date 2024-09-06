@@ -390,7 +390,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1120px) {
     .lateral-tendency-section {
         position: fixed;
         display: flex;
@@ -407,7 +407,7 @@
     }
 }
 
-@media screen and (max-width: 1004px) {
+@media screen and (max-width: 956px) {
     .lateral-tendency {
         display: none;
     }
