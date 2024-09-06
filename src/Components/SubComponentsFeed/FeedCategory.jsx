@@ -41,6 +41,7 @@ export function FeedCategory() {
           </div>
         </div>
       </div>
+      
       <article className='feed-article'>
         <div className='feed-article-border'>
           <button className='feed-article-button' onClick={handlerChangeToSiguiendo} >

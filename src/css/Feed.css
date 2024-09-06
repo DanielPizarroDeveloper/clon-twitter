@@ -193,6 +193,8 @@
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    /* Daniel Pizarro */
+    width: 100%;
 }
 
 .feed-post-content-text {
@@ -405,6 +407,44 @@
     font-size: small;
     font-weight: bold;
     padding: 20px;
+}
+
+.feed-bar-footer-responsive {
+    display: flex;
+    flex-direction:row;
+    gap:25px;
+    padding: 5px;
+    position:fixed;
+    left: 10px;
+    bottom: 0;
+    background-color: #000;
+    height: 35px;
+    width: 100%;
+}
+
+.feed-bar-footer-responsive-svg {
+    fill: white;
+    width: 20px;
+}
+
+.feed-bar-footer-responsive-div {
+    position: relative;
+    left: 5px;
+    border-radius: 100px;
+    border: 0;
+    background-color: black;
+}
+
+.feed-bar-footer-button-post {
+    position: fixed;
+    background-color: #1d9bf0;
+    border-radius: 100px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    top: 85%;
+    left: 75%;
+    border: 0;
 }
 
 @media screen and (max-width: 1281px) {
