@@ -444,19 +444,18 @@
     background-color: black;
 }
 
-/* .feed-bar-footer-button-post {
+.feed-bar-footer-button-post {
     position: fixed;
     background-color: #1d9bf0;
     border-radius: 100px;
     color: #fff;
     width: 50px;
     height: 50px;
-    top: 50%;
-    left: 50%;
-    bottom: 50%;
-    right: 50%;
+    bottom: 9%;
+    left: 85%;
     border: 0;
-} */
+    box-shadow: 0px 0px 15px 4px rgba(255, 255, 255, 0.41);
+}
 
 @media screen and (max-width: 1281px) {
     .feed {
