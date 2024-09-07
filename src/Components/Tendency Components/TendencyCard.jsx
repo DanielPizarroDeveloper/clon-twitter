@@ -12,7 +12,7 @@ export function TendencyCard() {
 
             <div className='lateral-tendency-group-trending'>
               <div className='lateral-tendency-important-trending'>
-                <img className='lateral-tendency-image-trending' src='@img\Futbol.jpg'></img>
+                <img className='lateral-tendency-image-trending' src='public/img/Futbol.jpg'></img>
                 <div className='lateral-tendency-content-trending'>
                   <h3>Canadá vs Uruguay</h3>
                   <span className='lateral-tendency-span'>Copa América · Comienza a las 20:00</span>

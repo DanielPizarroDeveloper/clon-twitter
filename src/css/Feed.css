@@ -193,8 +193,6 @@
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-    /* Daniel Pizarro */
-    width: 100%;
 }
 
 .feed-post-content-text {
@@ -410,42 +408,55 @@
 }
 
 .feed-bar-footer-responsive {
-    display: flex;
-    flex-direction:row;
-    gap:25px;
-    padding: 5px;
+    display: none;
+}
+
+.feed-bar-footer-div {
+    border-top: 1px solid #2f3336;
     position:fixed;
-    left: 10px;
     bottom: 0;
     background-color: #000;
-    height: 35px;
+    height: 50px;
     width: 100%;
+    max-width: 100%;
+}
+
+.feed-bar-footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    position:fixed;
+    bottom: 0;
+    width: 95%;
+    max-width: 100%;
 }
 
 .feed-bar-footer-responsive-svg {
     fill: white;
-    width: 20px;
+    width: 25px;
 }
 
 .feed-bar-footer-responsive-div {
     position: relative;
-    left: 5px;
     border-radius: 100px;
     border: 0;
     background-color: black;
 }
 
-.feed-bar-footer-button-post {
+/* .feed-bar-footer-button-post {
     position: fixed;
     background-color: #1d9bf0;
     border-radius: 100px;
     color: #fff;
     width: 50px;
     height: 50px;
-    top: 85%;
-    left: 75%;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
     border: 0;
-}
+} */
 
 @media screen and (max-width: 1281px) {
     .feed {
@@ -551,5 +562,9 @@
     
     .feed-post-change-color > .feed-post-svg-number-response {
         font-size: smaller;
+    }
+
+    .feed-bar-footer-responsive {
+        display: block;
     }
 }
