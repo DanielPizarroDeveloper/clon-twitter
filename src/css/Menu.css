@@ -128,8 +128,7 @@
 }
 
 .lateral-menu-article-profile { 
-    margin-right: -35px; 
-    width: 260px; 
+    width: 230px; 
     height: 60px; 
     border-radius: 100px;
 }
@@ -207,7 +206,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 674px) {
     .lateral-menu {
         display: none;
     }

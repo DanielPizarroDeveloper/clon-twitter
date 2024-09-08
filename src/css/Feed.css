@@ -206,12 +206,20 @@
     aspect-ratio: 4/5;
 }
 
+.feed-post-panel-estadistica {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* left: 3% !important; */
+}
+
 .feed-post-panel-svg {
     display: flex; 
     flex-direction: row;
     justify-content: space-between; 
     margin-top: 10px;
     margin-bottom: 10px;
+    gap: 50px;
 }
 
 .feed-svg-background-light-blue,
@@ -353,8 +361,10 @@
 .feed-post-button-more-options {
     display: flex;
     position: relative;
-    left: 20px;
+    left: -5%;
     gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .feed-post-svg {
@@ -457,6 +467,54 @@
     box-shadow: 0px 0px 15px 4px rgba(255, 255, 255, 0.41);
 }
 
+@media screen and (max-width: 1960px) {
+    .feed-post-panel-estadistica {
+        left: 8%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1536px) {
+    .feed-post-panel-estadistica {
+        gap: 60px;
+        left: 0;
+    }
+
+    .feed-post-panel-svg {
+        position: relative;
+        left: 10px;
+        gap: 25px;
+    }
+
+    .feed-post-button-more-options {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 1455px) {
+    .feed-post-panel-estadistica {
+        gap: 40px;
+    }
+
+    .feed-post-panel-svg {
+        position: relative;
+        left: 10px;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1301px) {
+    .feed-post-panel-estadistica {
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width: 1286px) {
+    .feed-post-panel-estadistica {
+        gap: 30px;
+    }
+}
+
 @media screen and (max-width: 1281px) {
     .feed {
         left: 0;
@@ -475,6 +533,16 @@
         margin-left: 2%;
         margin-top: 4%;
         margin-bottom: 2%;
+    }
+
+    .feed-post-panel-estadistica {
+        gap: 170px;
+    }
+}
+
+@media screen and (max-width: 1301px) {
+    .feed-post-panel-estadistica {
+        gap: 75px;
     }
 }
 
@@ -499,6 +567,18 @@
     }
 }
 
+@media screen and (max-width: 1033px) {
+    .feed-post-panel-estadistica {
+        gap: 55px;
+    }
+}
+
+@media screen and (max-width: 987px) {
+    .feed-post-panel-estadistica {
+        gap: 40px;
+    }
+}
+
 @media screen and (max-width: 956px) {
     .feed {
         left: 0;
@@ -518,9 +598,88 @@
         margin-top: 4%;
         margin-bottom: 2%;
     }
+
+    .feed-post-panel-estadistica {
+        gap: 200px;
+    }
+
+    .feed-post-panel-svg {
+        position: relative;
+        left: 20px;
+        gap: 60px;
+    }
+
+    .feed-post-button-more-options {
+        gap: 5px;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 906px) {
+    .feed-post-panel-estadistica {
+        gap: 200px;
+    }
+
+    .feed-post-panel-svg {
+        position: relative;
+        left: 15px;
+        gap: 40px;
+    }
+
+    .feed-post-button-more-options {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .feed-post-panel-estadistica {
+        gap: 200px;
+    }
+
+    .feed-post-panel-svg {
+        position: relative;
+        left: 20px;
+        gap: 20px;
+    }
+
+    .feed-post-button-more-options {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .feed-post-panel-estadistica {
+        gap: 200px;
+    }
+    
+    .feed-post-panel-svg {
+        position: relative;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 719px) { 
+    .feed-post-panel-estadistica {
+        gap: 150px;
+    }
+    
+    .feed-post-panel-svg {
+        position: relative;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 693px) { 
+    .feed-post-panel-estadistica {
+        gap: 150px;
+    }
+    
+    .feed-post-panel-svg {
+        position: relative;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 674px) {
     .feed {
         margin: 0;
         width: max-content;
@@ -565,5 +724,25 @@
 
     .feed-bar-footer-responsive {
         display: block;
+    }
+
+    .feed-post-panel-estadistica {
+        gap: 250px;
+    }
+    
+    .feed-post-panel-svg {
+        position: relative;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 430px) { 
+    .feed-post-panel-estadistica {
+        gap: 50px;
+    }
+    
+    .feed-post-panel-svg {
+        position: relative;
+        gap: 5px;
     }
 }

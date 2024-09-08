@@ -21,7 +21,7 @@ export function TweetsCard({name, account, date, description, image1, comments, 
 
                 <img className='feed-post-image' src={image1} alt=''></img>
               
-                <div className='feed-post-panel-svg'>
+                {/* <div className='feed-post-panel-svg'>
                   <div className='feed-post-change-color'>
                     <button className='feed-post-button-svg'>
                       <div className='feed-svg-background-light-blue'></div>
@@ -77,6 +77,82 @@ export function TweetsCard({name, account, date, description, image1, comments, 
                       </div>
                     </button>             
                   </div>
+                </div> */}
+              </div>
+
+              <div className="feed-post-panel-estadistica">
+                <div className='feed-post-panel-svg'>
+                  <div className='feed-post-change-color'>
+                    <button className='feed-post-button-svg'>
+                      <div className='feed-svg-background-light-blue'></div>
+                      <div className='feed-post-change-color'>
+                        <svg className='feed-post-response-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d={SVGComment}></path></g></svg>
+                      </div>
+                    </button>
+                    <span className='feed-post-svg-number-response'>{comments}</span>
+                  </div>
+
+                  <div className='feed-post-change-color'>
+                    <button className='feed-post-button-svg'>
+                      <div className='feed-svg-background-light-green'></div>
+                      <div className='feed-post-change-color'>
+                      <svg className='feed-post-repost-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d={SVGRetweet}></path></g></svg>
+                      </div>
+                    </button>
+                    <span className='feed-post-svg-number-repost'>{retweet}</span>
+                  </div>
+
+                  <div className='feed-post-change-color'>
+                    <button className='feed-post-button-svg'>
+                      <div className='feed-svg-background-light-pink'></div>
+                      <div className='feed-post-change-color'>
+                        <svg className='feed-post-like-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d={SVGLike}></path></g></svg>
+                      </div>
+                    </button>
+                    <span className='feed-post-svg-number-like'>{like}</span>
+                  </div>
+
+                  <div className='feed-post-change-color'>
+                    <button className='feed-post-button-svg'>
+                      <div className='feed-svg-background-light-blue'></div>
+                      <div className='feed-post-change-color'>
+                        <svg className='feed-post-view-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d={SVGView}></path></g></svg>
+                      </div>
+                    </button>
+                    <span className='feed-post-svg-number-view'>{view}</span>
+                  </div>
+
+                  {/* <div className='feed-post-button-more-options'>
+                    <button className='feed-post-button-svg'>
+                      <div className='feed-svg-background-light-blue'></div>
+                      <div className='feed-post-button-svg'>
+                      <svg className='feed-post-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d={saveSVG}></path></g></svg>
+                      </div>
+                    </button>
+
+                    <button className='feed-post-button-svg'>
+                      <div className='feed-svg-background-light-blue'></div>
+                        <div className='feed-post-button-svg'>
+                        <svg className='feed-post-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d={shareSVG}></path></g></svg>
+                      </div>
+                    </button>
+                  </div> */}
+                </div>
+
+                <div className='feed-post-button-more-options'>
+                  <button className='feed-post-button-svg'>
+                    <div className='feed-svg-background-light-blue'></div>
+                    <div className='feed-post-button-svg'>
+                    <svg className='feed-post-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d={saveSVG}></path></g></svg>
+                    </div>
+                  </button>
+
+                 <button className='feed-post-button-svg'>
+                    <div className='feed-svg-background-light-blue'></div>
+                      <div className='feed-post-button-svg'>
+                      <svg className='feed-post-svg' viewBox="0 0 24 24" aria-hidden="true"><g><path d={shareSVG}></path></g></svg>
+                    </div>
+                  </button>
                 </div>
               </div>
             </article>
